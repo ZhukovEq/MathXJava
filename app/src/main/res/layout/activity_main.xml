@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/UselessParent"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginBottom="1dp"
+        android:background="?android:attr/windowBackgroundFallback"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <Button
+            android:id="@+id/Button_Start"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Играть" />
+
+        <Button
+            android:id="@+id/Button_Pezult"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Результаты" />
+
+        <Button
+            android:id="@+id/Button_Close"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Выход" />
+
+        <Button
+            android:id="@+id/Button_Options"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Опции"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>
